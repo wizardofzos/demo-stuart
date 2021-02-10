@@ -1,5 +1,7 @@
 /* REXX */
 
+
+say "This line needs to be here!!!"
 ADDRESS TSO
 "ALLOC F(INFILE) DSN('IBMUSER.SOME$.FILE') SHR REU"
 "EXECIO * DISKR INFILE ( FINIS STEM MYSTEM."
